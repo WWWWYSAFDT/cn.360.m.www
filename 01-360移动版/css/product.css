@@ -17,12 +17,6 @@
     }
 }
 
-@media screen and (width: 1024px) {
-    html {
-        font-size: calc(1024px / 20);
-    }
-}
-
 @media screen and (width: 360px) {
     html {
         font-size: calc(360px / 20);
@@ -37,6 +31,12 @@
 @media screen and (width: 818px) {
     html {
         font-size: calc(818px / 20);
+    }
+}
+
+@media screen and (width: 1024px) {
+    html {
+        font-size: calc(1024px / 20);
     }
 }
 

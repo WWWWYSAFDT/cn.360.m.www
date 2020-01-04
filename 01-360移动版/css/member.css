@@ -1,0 +1,242 @@
+ @media screen and (width : 320px) {
+     html {
+         font-size: calc(320px / 20);
+     }
+ }
+
+ @media screen and (width : 360px) {
+     html {
+         font-size: calc(360px / 20);
+     }
+ }
+
+ @media screen and (width : 375px) {
+     html {
+         font-size: calc(375px / 20);
+     }
+ }
+
+ @media screen and (width : 411px) {
+     html {
+         font-size: calc(411px / 20);
+     }
+ }
+
+ @media screen and (width : 768px) {
+     html {
+         font-size: calc(768px / 20);
+     }
+ }
+
+ @media screen and (width : 931px) {
+     html {
+         font-size: calc(931px / 20);
+     }
+ }
+
+ @media screen and (width: 818px) {
+     html {
+         font-size: calc(818px / 20);
+     }
+ }
+
+ @media screen and (width: 1024px) {
+     html {
+         font-size: calc(1024px / 20);
+     }
+ }
+
+ body {
+     width: 100%;
+     background-color: #fff;
+ }
+
+ a {
+     color: #333;
+ }
+
+ /* 顶部 */
+ .coping {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: calc(42rem / 20);
+     padding: calc(6rem / 20);
+     background-color: #fff;
+     z-index: 10;
+ }
+
+ .coping .logo {
+     float: left;
+     width: calc(58rem / 20);
+     height: calc(40rem / 20);
+ }
+
+ .coping .logo img {
+     width: calc(58rem / 20);
+     height: calc(40rem / 20);
+ }
+
+ .coping .search {
+    float: left;
+     width: calc(268rem / 20);
+     height: calc(40rem / 20);
+ }
+
+ .coping .search input {
+     height: calc(40rem / 20);
+     font-size: calc(15rem / 20);
+     margin: 0 calc(5rem / 20);
+     color: #ccc;
+     border: none;
+     box-sizing: border-box;
+     padding: calc(5rem / 20) calc(40rem / 20);
+     background-color: #eee;
+     border-radius: calc(6rem / 20);
+ }
+
+ .coping .search .plan {
+     position: absolute;
+     top: calc(6rem / 20);
+     left: calc(70rem / 20);
+     width: calc(35rem / 20);
+     height: calc(35rem / 20);
+     background: #eee url(../image/plan.png) no-repeat;
+ }
+
+ .coping .entry {
+    float: left;
+     width: calc(40rem / 20);
+     height: calc(35rem / 20);
+     text-align: center;
+     margin: 0 auto;
+     line-height: calc(35rem / 20);
+ }
+
+ .coping .entry a {
+     color: #333;
+ }
+
+ /* 轮播图 */
+
+.potation{
+    width: 100%;
+    height: calc(170rem / 20);
+}
+.potation img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 商城快报  */
+.bulletin{
+    height:  calc(45rem / 20);
+    font-size: calc(12rem / 20);
+    color: #333;
+    font-size: calc(16rem / 20);
+    padding:calc(13rem / 20) 0 calc(13rem / 20) calc(16rem / 20);
+}
+.bulletin span{
+    float: left;
+}
+.bulletin i{
+    float: left;
+    padding: 0  calc(4rem / 20);
+}
+
+.bulletin h3{
+    float: left;
+    font-weight: 400;
+    color: #f66;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* 底部 */
+ .bottom {
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     height: calc(56rem / 20);
+     border: 1px solid #ddd;
+     box-shadow: 0 0 5px 0 #ddd;
+     background-color: #fff;
+     z-index: 10;
+ }
+
+ .bottom li {
+     display: inline-block;
+     width: 19%;
+     height: 100%;
+     text-align: center;
+ }
+
+
+ .bottom li .bottom-box-i {
+     display: block;
+     width: 100%;
+     height: 100%;
+     padding-top: calc(8rem /20);
+ }
+
+ .bottom li .icon {
+     display: block;
+     width: calc(27rem / 20);
+     height: calc(27rem / 20);
+     margin: 0 auto;
+     background-image: url(../image/icon.png);
+     background-size:calc(97rem / 20)  calc(96rem / 20);
+ }
+
+ .bottom li .wz-i{
+    background-position:calc(-3rem / 20)  calc(0rem / 20);
+ }
+ .bottom li .wz-ii{
+    background-position:calc(-360rem / 20)  calc(64rem / 20);
+ }
+
+ .bottom li .wz-iii{
+    background-position:calc(-132rem / 20)  calc(-34rem / 20);
+ }
+
+ .bottom li .wz-iv{
+    background-position:calc(-133rem / 20)  calc(30rem / 20);
+ }
+
+ .bottom li .bottom-box-i .definition {
+    display: block;
+    font-size: calc(12rem / 20);
+    text-align: center;
+ }
+
+ .bottom-ba{
+     width: 100%;
+     height: 100%;
+ }
+ .bottom-ba a{
+    margin: 0  calc(10rem / 20);
+    box-sizing: border-box;
+ }
+
+ .bottom-ba img{
+     width: 70%;
+     height: 90%;
+     margin: 0 auto;
+ }

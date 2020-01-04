@@ -34,6 +34,7 @@
         font-size: calc(768px / 20);
     }
 }
+
 @media screen and (width: 818px) {
     html {
         font-size: calc(818px / 20);
@@ -72,7 +73,7 @@ a {
     float: left;
     height: calc(32rem / 20);
     display: block;
-    margin-top:calc(10rem / 20);
+    margin-top: calc(10rem / 20);
     margin-left: 3%;
 }
 
@@ -80,7 +81,7 @@ a {
     float: right;
     display: block;
     height: calc(16rem / 20);
-    margin-top:calc(16rem / 20);
+    margin-top: calc(16rem / 20);
     margin-right: 1%;
 }
 
@@ -413,28 +414,29 @@ a {
 }
 
 /* 登录栏 */
-.foot{
+.foot {
     width: 80%;
     overflow: hidden;
     margin: calc(40rem / 20) auto 0;
 }
 
-.foot ul li{
+.foot ul li {
     float: left;
     width: 24%;
     text-align: center;
     /* padding-left: calc(6rem / 20); */
-    font-size:calc(18rem / 20);
-    border-right:calc(1rem / 20) solid #666666;
+    font-size: calc(18rem / 20);
+    border-right: calc(1rem / 20) solid #666666;
     color: #666666;
     box-sizing: border-box;
 }
-.foot ul li:last-child{
+
+.foot ul li:last-child {
     border: none;
 }
 
 /* 底部 */
-.bottom{
+.bottom {
     width: 100%;
     text-align: center;
     font-size: calc(18rem / 20);
@@ -442,9 +444,3 @@ a {
     padding: calc(15rem / 20) 0;
     margin: calc(40rem / 20) auto 0;
 }
-
-
-
-
-
-
