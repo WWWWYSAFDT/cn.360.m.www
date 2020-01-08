@@ -10,7 +10,6 @@
     }
 }
 
-
 @media screen and (width: 414px) {
     html {
         font-size: calc(414px / 20);

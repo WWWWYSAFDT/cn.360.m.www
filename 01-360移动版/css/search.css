@@ -102,7 +102,7 @@ body {
 
 /* 保障 */
 .ensure {
-    height:  calc(200rem / 20);
+    height: calc(200rem / 20);
     text-align: center;
     margin-bottom: calc(120rem / 20);
 }
@@ -112,7 +112,7 @@ body {
     height: calc(92rem / 20);
     margin: 0 auto;
     background-image: url(../image/smart01.png);
-    background-size: calc(92rem / 20)   calc(92rem / 20);
+    background-size: calc(92rem / 20) calc(92rem / 20);
 }
 
 .ensure .smart-i {
@@ -120,7 +120,7 @@ body {
     height: calc(108rem / 20);
     margin: 0 auto;
     background-image: url(../image/smart02.png);
-    background-size: calc(92rem / 20)   calc(108rem / 20);
+    background-size: calc(92rem / 20) calc(108rem / 20);
 }
 
 .ensure .smart-ii {
@@ -128,27 +128,28 @@ body {
     height: calc(92rem / 20);
     margin: 0 auto;
     background-image: url(../image/smart03.png);
-    background-size: calc(92rem / 20)   calc(92rem / 20);
+    background-size: calc(92rem / 20) calc(92rem / 20);
 }
 
-.ensure h2{
+.ensure h2 {
     color: #585e61;
     font-size: calc(30rem / 20);
-    margin: 0 auto;;
-    margin-bottom:calc(8rem / 20);
+    margin: 0 auto;
+    ;
+    margin-bottom: calc(8rem / 20);
     font-weight: 400;
 }
 
-.ensure p{
+.ensure p {
     font-size: calc(19rem / 20);
     color: #98a1a5;
     line-height: calc(30rem / 20);
 }
+
 /* 底部 */
-.bases{
+.bases {
     text-align: center;
     line-height: 1.5;
     color: #999;
     padding-bottom: calc(40rem / 20);
 }
-
